@@ -1,0 +1,48 @@
+#tapis {
+  max-width: 600px;
+  display: flex;
+  color: $white;
+  font-size: 30px;
+  .encart {
+    border: 1px solid $white;
+    width: 20%;
+    padding: 50px;
+  }
+  #nombres {
+    width: 60%;
+    text-align: center;
+    #n0 {
+      height: 60px;
+      background-color: $green;
+      text-align: center;
+      padding: 10px;
+    }
+    #lines {
+      display: flex;
+      flex-wrap: wrap;
+      & > div {
+        flex-grow: 1;
+        text-align: center;
+        width: 33.3333333%;
+        height: 30px;
+        line-height: 30px;
+        background-color: $red;
+        position: relative;
+        .jeton {
+          height: 20px;
+          width: 20px;
+          border-radius: 10px;
+          background-color: gold;
+          color: black;
+          font-size: 12px;
+          top:0;
+          position: absolute;
+        }
+      }
+      #n2, #n4, #n6, #n8, #n10, #n11, #n13, #n15, #n17, #n20, #n22, #n24, #n26, #n28, #n29, #n31, #n33, #n35 {
+        background-color: $black;
+      }
+    }
+  }
+
+}
