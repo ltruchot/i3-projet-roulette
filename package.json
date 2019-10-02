@@ -8,6 +8,7 @@
   },
   "main": "./src/index.js",
   "scripts": {
+    "toto": "echo 'coucou'",
     "build": "webpack",
     "start": "webpack-dev-server"
   },
